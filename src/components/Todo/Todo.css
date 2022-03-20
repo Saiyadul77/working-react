@@ -1,0 +1,13 @@
+.todos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.todo{
+    background-color: aquamarine;
+    color: lightcoral;
+    border: 3px solid red;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
